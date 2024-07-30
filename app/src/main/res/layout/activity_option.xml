@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionActivity">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        style="@style/ImageViewBackground"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/option_logo"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/cv_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextViewTitleC"
+        android:text="@string/option_title"
+        app:layout_constraintEnd_toEndOf="@+id/cv_container"
+        app:layout_constraintStart_toStartOf="@+id/cv_container"
+        app:layout_constraintTop_toTopOf="@+id/cv_container" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_container"
+        style="@style/CardViewContainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_student"
+                style="@style/MaterialButton"
+                android:text="@string/option_student"/>
+
+            <TextView
+                android:id="@+id/tv_or"
+                style="@style/TextViewContentC"
+                android:text="@string/option_or"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_lecturer"
+                style="@style/MaterialButton"
+                android:text="@string/option_lecturer"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

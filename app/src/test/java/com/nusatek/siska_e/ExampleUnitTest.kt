@@ -1,4 +1,4 @@
-package com.example.siska_e
+package com.nusatek.siska_e
 
 import org.junit.Test
 

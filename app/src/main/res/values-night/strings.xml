@@ -1,6 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">siska-e</string>
-    <string name="todo">TODO</string>
     <string name="option_logo">siska-e</string>
     <string name="option_title">Masuk Sebagai</string>
     <string name="option_student">Mahasiswa</string>

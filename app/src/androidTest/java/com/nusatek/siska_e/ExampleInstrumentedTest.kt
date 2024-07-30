@@ -1,4 +1,4 @@
-package com.example.siska_e
+package com.nusatek.siska_e
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
