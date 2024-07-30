@@ -10,4 +10,8 @@
     <string name="login_password">Kata Sandi</string>
     <string name="login_password_hint">********</string>
     <string name="login_confrim">Masuk</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_guidance">Bimbingan</string>
+    <string name="menu_class">Kelas</string>
+    <string name="menu_profile">Profil</string>
 </resources>

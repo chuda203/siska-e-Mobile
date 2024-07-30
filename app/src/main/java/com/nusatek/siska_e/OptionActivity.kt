@@ -2,12 +2,10 @@ package com.nusatek.siska_e
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.nusatek.siska_e.databinding.ActivityOptionBinding
-import com.nusatek.siska_e.student.LoginActivity
+import com.nusatek.siska_e.student.LoginActivity as StudentLoginActivity
+import com.nusatek.siska_e.lecturer.LoginActivity as LecturerLoginActivity
 
 class OptionActivity : AppCompatActivity() {
     private lateinit var binding: ActivityOptionBinding
@@ -16,7 +14,11 @@ class OptionActivity : AppCompatActivity() {
         binding = ActivityOptionBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btStudent.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, StudentLoginActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btLecturer.setOnClickListener {
+            val intent = Intent(this, LecturerLoginActivity::class.java)
             startActivity(intent)
         }
     }
