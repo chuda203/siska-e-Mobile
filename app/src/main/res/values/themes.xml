@@ -22,6 +22,47 @@
         <item name="cardElevation">10dp</item>
     </style>
 
+    <style name="CardViewContainerMenuTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="contentPaddingTop">15dp</item>
+        <item name="contentPaddingBottom">15dp</item>
+        <item name="contentPaddingRight">15dp</item>
+        <item name="contentPaddingLeft">15dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+
+    <style name="CardViewContainerMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">120dp</item>
+        <item name="android:layout_marginBottom">50dp</item>
+        <item name="contentPaddingTop">20dp</item>
+        <item name="contentPaddingBottom">50dp</item>
+        <item name="contentPaddingRight">20dp</item>
+        <item name="contentPaddingLeft">20dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+
+    <style name="CardViewContainerMenuContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="contentPaddingTop">20dp</item>
+        <item name="contentPaddingBottom">20dp</item>
+        <item name="contentPaddingRight">10dp</item>
+        <item name="contentPaddingLeft">10dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+
     <style name="CardViewContainerLogin">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -42,6 +83,36 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextViewTitleCMT">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">11dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewTitleCMC">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">11dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewContentCMC">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">11dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ViewSeparatorCMC">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/light_grey</item>
+    </style>
+
     <style name="TextViewContentC">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -55,6 +126,27 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textAllCaps">false</item>
         <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="MaterialButtonFilterOn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="MaterialButtonFilterOff" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/light_grey</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">20dp</item>
     </style>
 
     <style name="TextInput">
